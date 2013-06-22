@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1 {
+﻿namespace com.github.thelonedevil.RandomArtistGUI {
     partial class Form2 {
         /// <summary>
         /// Required designer variable.

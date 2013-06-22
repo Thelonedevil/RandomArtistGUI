@@ -7,8 +7,8 @@
     <ProjectGuid>{43A4AB2C-2A33-4128-9357-855C85A834BB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication1</RootNamespace>
-    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <RootNamespace>com.github.thelonedevil.RandomArtistGUI</RootNamespace>
+    <AssemblyName>RandomArtistGUI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

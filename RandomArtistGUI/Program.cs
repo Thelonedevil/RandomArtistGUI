@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
-namespace WindowsFormsApplication1 {
+namespace com.github.thelonedevil.RandomArtistGUI {
     public static class Program {
         static string path = "artists.txt";
         public static List<string> artists = new List<string>();
