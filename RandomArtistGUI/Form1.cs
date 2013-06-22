@@ -16,7 +16,6 @@ namespace com.github.thelonedevil.RandomArtistGUI {
 
         private void button1_Click(object sender, EventArgs e) {
             Form2 f = new Form2();
-            f.Location = getOffset();
             f.Show();
         }
 
@@ -24,13 +23,6 @@ namespace com.github.thelonedevil.RandomArtistGUI {
             MessageBox.Show("Your Random Artist: " + Program.random());
 
         }
-
-       private Point getOffset(){
-            Point loc = Location;
-            loc.X = loc.X + ((int.Parse(loc.X.ToString())/100) *20);
-            loc.Y = loc.Y - ((int.Parse(loc.Y.ToString())/100) *20);
-            return loc;
-        }
-        
+       
     }
 }
